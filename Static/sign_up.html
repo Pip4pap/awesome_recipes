@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="Content-Type" content="text/html">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="Sign-up" content="Join us and enjoy an aroma of recipes">
+  <meta name="author" content="Musumba Phillip">
+
+  <title>YummyRecipes|Sign up</title>
+
+  <!--Bootstrap core CSS -->
+  <link href="/bootstrap-4.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!--Custom styles for this page-->
+  <link href="/bootstrap-4.0.0/docs/4.0/examples/sign-in/signin.css" rel="stylesheet">
+
+  <!--Custom styles-->
+  <style type="text/css">
+    body{
+      background: url('images/pizza.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    form {
+      background-color: #FFFFFF;
+      border-radius: 5px;
+      stroke: 0px; 
+      width: 700px; 
+    }
+    input{
+      color: #000000;
+      font-weight: 700;
+    }
+    #lead{
+      font-family: Garamond, Georgia, Times New Roman;
+      color: #4cae4c;
+    }
+
+    #btn-signup{
+      font-weight: bold;
+    }
+    #miniature{
+      color: #3B5998;
+      font-size: 12px;
+      text-decoration: none;
+    }
+    .miniature{
+      text-decoration: none;
+      font-size: 14px;
+    }
+  </style>
+
+</head>
+<body class="text-center">
+  <form class="form-signin" method="post">
+    <div class="row">
+      <div class="col-lg-6">
+        <h1 class="h3 mb-3 font-weight-normal">Sign up</h1>
+        <input type="text" name="username" class="form-control" placeholder="Username" autofocus="yes"><br/>
+        <input type="text" name="email" class="form-control" placeholder="Email" autofocus="yes"><br/>
+        <input type="password" name="password" class="form-control" placeholder="Password" autofocus="yes">
+        <a href="#" id="miniature">Forgot your password?</a><br/>
+      </div>
+      <div class="col-lg-6 mx-auto my-auto">
+        <span id="lead"><i>YummyRecipes enables users to keep track of awesome food recipes all over the world. It's very simple to use and thus will make life in the kitchen a lot easier and much more interesting...</i></span>
+      </div>
+    </div>
+    <div class="row justify-content-md-center">
+      <div class="col">
+        <a href="#" id="btn-signup" class="btn btn-warning" role="button" aria-pressed="true">Sign up</a>
+        <p class="miniature">Already have an account? <a href="#">Log in</a></p>
+      </div>
+    </div>
+  </form>
+</body>
+</html>
